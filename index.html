@@ -1,4 +1,4 @@
-﻿
+
 
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Makarand Dawane | Digital Marketing Portfolio</title> <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&display=swap');
 
@@ -3050,7 +3050,7 @@ document.documentElement.classList.add('mkd-booting');
 <div class="desc">I help businesses grow with data-driven marketing, creative designs and meaningful digital experiences.</div>
 <div class="cta-row">
 <a class="btn-primary" href="#contact-thanks">Let's Work Together  →</a>
-<button class="btn-outline" type="button" data-resume-url="https://www.arogx.com/wp-content/uploads/2026/portfolio/resume" aria-haspopup="dialog">⬇ Download Resume</button>
+<button class="btn-outline" type="button" data-resume-url="https://www.arogx.com/wp-content/uploads/2026/portfolio/Makarand_Dawane_Resume.pdf" aria-haspopup="dialog">⬇ Download Resume</button>
 </div>
 <div class="contact-row">
 <span><span class="icon-dot">📍</span> Pune, Maharashtra, India</span>
@@ -7397,7 +7397,15 @@ body{max-width:100%;overflow-x:hidden}
 })();
 </script>
 
-</body></html>
+<script>
+document.querySelectorAll('.xp-date').forEach(function (date) {
+  date.childNodes.forEach(function (node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.nodeValue = node.nodeValue.replace('Feb 2026 – Sept 2026', 'Feb 2026 – Present');
+    }
+  });
+});
+</script></body></html>
 <style id="mobile-services-final-override">
 /* Mobile services: force two equal columns on every mobile viewport */
 @media screen and (max-width: 767px) {
